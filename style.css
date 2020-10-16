@@ -23,6 +23,3 @@ li:hover {
 li:nth-child(2n + 1) {
   background-color: #eee;
 }
-
-/* tips öva med documen.querySelector
-// document.quaryselectorAll */
