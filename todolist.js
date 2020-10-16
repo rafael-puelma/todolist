@@ -1,5 +1,3 @@
-console.log("hej");
-
 const addTodoForm = document.querySelector("#addTodoForm");
 const addTodoInput = document.querySelector("#addTodoInputField");
 const todoList = document.querySelector("#todoList");
@@ -7,8 +5,6 @@ addTodoInput.focus();
 
 addTodoForm.addEventListener("submit", (event) => {
   event.preventDefault();
-  console.log("form is submitted");
-
   addTodo(addTodoInput.value);
 });
 
